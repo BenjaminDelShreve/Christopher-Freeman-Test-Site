@@ -1,0 +1,67 @@
+body {
+  background-color: #9ee3e7;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #87c0db;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+}
+
+#main-image {
+  transition: all 0.2s ease-in-out;
+}
+
+#fartButton {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.socials {
+  margin-top: 40px;
+}
+
+a.fart-link {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  background-color: #8bcce7;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: transform 0.2s;
+}
+
+a.fart-link:hover {
+  transform: scale(1.1);
+}
+
+/* Style for clickable social links */
+.socials a {
+  color: #ff69b4; /* Hot pink for visibility */
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #ff1493; /* Darker pink on hover */
+}
